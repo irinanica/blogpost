@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(240, 167, 155);
+  margin: 30px;
+}
+
+h1, h2, p, div {
+  color: #F8F0D4;
+}
+
+img {
+  border-radius: 64px;
+}
+
+p.menu {
+  text-align: right;
+}
+
+a {
+  color: blue;
+}
+
+label {
+  margin-top: 30px;
+  display: block;
+  text-transform: uppercase;
+  color: #947483;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+input, textarea {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #cdcfcf;
+  margin-top: 5px;
+  padding: 20px;
+  color: #9BC3BB;
+  background-color: #F8F0D4;
+}
+
+textarea {
+  height: 200px;
+}
+
+button {
+  background: #947483;
+  border: none;
+  border-radius: 5px;
+  color: #F8F0D4;
+  font-size: 15px;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-shadow: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#postButton {
+  display: none;
+  position: absolute;
+  left: 0;
+  margin-bottom: 3rem;
+  bottom: -120px;
+}
+
+.blogPage-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#blogTitlePreview {
+  font-family: serif;
+  font-size: 40px
+}
+
+#blogContentPreview {
+  color: #9BC3BB;
+  font-family: serif;
+  font-size: 18px;
+  padding: 2rem;
+}
+
+#flashMessage {
+  color: #F8F0D4;
+  background-color: #947483;
+  padding: 15px;
+  border-radius: 5px;
+  display: block;
+  width: calc(100% - 100px);
+  margin-bottom: 40px;
+}
+
+.blogNewPost {
+  float: left;
+  width: 30%;
+  margin-left: 7%;
+  overflow-wrap: normal;
+}
+
+.blogPreviewArea {
+  float: left;
+  width: 40%;
+  background-color: #F8F0D4;
+  margin-left: 15%;
+  min-height: 357px;
+  overflow-wrap: normal;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  margin: 110px 0 19px 15%;
+  position: relative;
+}
+
+.blogPreviewArea h2 {
+  border-bottom: 1px solid #9BC3BB;
+  padding: .8rem 0;
+  text-align: center;
+  color: #947483;
+}
+
+#date {
+  color: #9BC3BB;
+  margin: 2rem 0 0 2rem;
+}
